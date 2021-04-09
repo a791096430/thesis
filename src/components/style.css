@@ -1,0 +1,617 @@
+/* navbar */
+.navbar-search {
+  text-align: center;
+}
+
+.seperator {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* home page categories */
+div.categories {
+  border: 1px solid #ccc;
+  display: block;
+  text-align: center;
+}
+
+div.categories:hover {
+  border: 1px solid #777;
+}
+
+div.categories img {
+  margin: 20px 20px 20px 20px;
+  width: 600px;
+  height: 300px;
+}
+
+.home-category {
+  text-align: center;
+  display: inline-block;
+}
+
+.responsive {
+  padding: 0 6px;
+  margin: 20px 20px 20px 45px;
+  float: left;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+/* filters */
+#fs_app {
+  padding: 10px 15px 0;
+}
+
+#fs_app > section:not(#fs_header_bar) {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+#fs_header_bar {
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+
+#fs_page_title {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: -15px;
+}
+
+.heading {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ff286c;
+  border-radius: 2px;
+  padding: 3px;
+  color: #ff286c;
+  font-size: 14px;
+  font-weight: 300 !important;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.active .btn {
+  background: #ff286c;
+  color: #fff;
+}
+
+#fs_price_body .ine1 {
+  height: 2px;
+  width: 100%;
+  background: #eee;
+}
+
+#fs_price_body .line {
+  position: absolute;
+  height: 2px;
+  width: 45%;
+  background: #ff286c;
+  left: 9%;
+}
+
+#fs_price_body .line:before {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 6px;
+  width: 6px;
+  background: #ff286c;
+  border-radius: 50%;
+  left: -2px;
+  top: -2px;
+}
+
+#fs_price_body .line:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 6px;
+  width: 6px;
+  background: #ff286c;
+  border-radius: 50%;
+  right: -2px;
+  bottom: -2px;
+}
+
+#fs_price_body ul {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+#fs_price_body ul li {
+  list-style: none;
+  display: inline-block;
+  color: #d4d4d4;
+}
+
+#fs_price_body ul li:last-child {
+  float: right;
+}
+
+#fs_distance_body {
+  padding: 0;
+  display: block;
+  margin-top: 15px;
+}
+
+#fs_distance_body ul li {
+  list-style: none;
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#fs_distance_body .text-right {
+  float: right;
+  height: 13px;
+  width: 13px;
+  border: 1px solid #999;
+  margin-top: 3px;
+}
+
+.container-fluid {
+  position: fixed;
+  width: 18%;
+}
+
+/* search page */
+
+.Post {
+  margin-left: 20%;
+  margin-right: 18px;
+  padding: 2px 2px 2px 2px;
+}
+
+.post-gallery {
+  margin-left: 30px;
+  margin-right: 2px;
+  display: flex;
+}
+
+.post-gallery-info {
+  margin-left: 30%;
+  float: right;
+}
+
+.post-geoprice-info {
+  margin-left: 25px;
+}
+
+.post-sell {
+  color: royalblue;
+}
+
+/* rating page */
+
+.rating {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.rating-profile {
+  display: flex;
+  margin: auto;
+}
+
+.rating-profile-image {
+  margin-left: 40%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.rating-profile-info {
+  margin-left: 8%;
+  display: block;
+}
+
+.rating-userInfo {
+  border: 3px solid #fff;
+}
+
+.rating-userInfo-div1 {
+  width: 50%;
+  float: left;
+}
+
+.rating-userInfo-div2 {
+  width: 50%;
+  float: left;
+}
+
+.rating-radio {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rating-tradeHistory {
+  display: block;
+  padding: 5px;
+}
+
+.rating-tradeHistory-comments {
+  margin: 30px 0px;
+}
+
+.rating-tradeHistory-comments p {
+  display: inline;
+  margin-right: 40px;
+}
+
+.rating-tradeHistory-comments h6 {
+  display: inline;
+  margin-right: 40px;
+}
+
+.rating-tradeHistory-comments-profile {
+  display: inline;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+/* trade page */
+
+.trade-window1 {
+  margin: 0 0 0 10%;
+  display: inline-block;
+  width: 25%;
+  height: auto;
+}
+
+.trade-window-div {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+  display: inline-block;
+}
+
+.trade-window-div-add {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+  display: inline-flex;
+}
+
+.trade-window-add {
+  margin: 5px 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.trade-window-img {
+  margin-top: -8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.trade-window-cancel {
+  margin: 5px 20px 10px 20px;
+  width: 80px;
+  display: block;
+}
+
+.trade-window1 textarea {
+  margin-left: 18px;
+}
+
+.trade-window2 {
+  margin: 0 10% 0 0;
+  float: right;
+  /* display: inline-block; */
+  width: 25%;
+  height: auto;
+}
+
+.trade-middle {
+  width: 20%;
+  display: inline;
+}
+.trade-middle input {
+  margin-left: 10%;
+}
+
+.hide {
+  display: none;
+}
+
+.popup {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.popup-hide {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.popup-content {
+  height: 250px;
+  width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.totalValue {
+  margin: 10px 0px 0px 0px;
+}
+
+/* profile page */
+.profile {
+  margin: 0px 10% 0px 10%;
+}
+
+.profile-nav-btn {
+  width: 25%;
+}
+
+.log {
+  margin-bottom: -10px;
+}
+
+.popup-edit {
+  background: rgba(0, 0, 0, 0.341);
+  margin-left: -20%;
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.popup-edit-content {
+  height: auto;
+  width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 10%;
+}
+
+.popup-delete {
+  background: rgba(0, 0, 0, 0.341);
+  margin-left: -20%;
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.comment_input {
+  margin: 20px 20% 5px 0px;
+  width: 60%;
+  height: 100px;
+  display: block;
+}
+
+.detail {
+  margin: 0px 10% 0px 10%;
+}
+
+.detail-image {
+  margin: 20px 10% 20px 10%;
+  float: left;
+}
+
+.detail-information {
+  margin: 15px 0px 0px 0px;
+  display: inline-block;
+}
+
+.detail-description {
+  margin-top: 5%;
+  display: block;
+}
+
+.detail-display-comment h6 {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+}
+
+.detail-display-comment p {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+}
+
+.filter_price {
+  width: 70%;
+  margin-left: 10px;
+}
+
+section {
+  padding: 0px;
+}
+
+.contents {
+  width: 100%;
+  margin-top: -5px;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  /* background: #fee648; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+section .container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+section .container .user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+section .container .user .imgBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #ff0;
+  transition: 0.5s;
+}
+
+section .container .user .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section .container .user .formBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: 0.5s;
+}
+
+section .container .user .formBx form h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+section .container .user .formBx form input {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+section .container .user .formBx form input[type="submit"] {
+  max-width: 100px;
+  background: #677eff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+section .container .user .formBx form .signup {
+  position: relative;
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+section .container .user .formBx form .signup a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #677eff;
+}
+
+section .container .signupBx {
+  pointer-events: none;
+}
+
+section .container .signupBx .formBx {
+  left: 100%;
+}
+
+section .container .signupBx .imgBx {
+  left: -100%;
+}
+
+section .container.active .signupBx .formBx {
+  left: 0;
+}
+
+section .container.active .signupBx .imgBx {
+  left: 0;
+}
+
+section .container.active .signupBx {
+  pointer-events: initial;
+}
+
+.search-author {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: -30px;
+}
